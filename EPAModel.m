@@ -98,8 +98,9 @@ function [store_output,y] = EPAModel(Modelselection,PopulationExplosion, ...
 %	Do the following to find initial transfer flows for the global
 %	variables
 %
-belownoreproduction=1e-4; %level below which the natural ecosystem
+%belownoreproduction=1e-4; %level below which the natural ecosystem
 %	elements do not reproduce
+belownoreproduction=0.04;
 %
 %	assign parameters
 %
